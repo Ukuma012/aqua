@@ -1,4 +1,4 @@
 <?php
-    require_once(__DIR__ . "/../app/Core/Test.php");
+    require_once(__DIR__ . "/../app/bootstrap.php");
     
-    new Test();
+    $init = new Core();
