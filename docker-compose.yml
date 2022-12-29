@@ -1,0 +1,9 @@
+version: '3'
+services:
+  php:
+    build: .
+    volumes:
+      - ./aqua:/var/www/aqua
+    ports:
+      - '8080:80'
+    working_dir: /var/www/aqua
